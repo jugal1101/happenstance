@@ -1,0 +1,440 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.header-content
+{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+.header ul 
+{
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header ul li
+{
+    list-style: none;
+    padding-left: 20px;
+}
+.header ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+}
+.nav-content
+{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+    height: 80px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    height: 40px;
+    width: 100%;
+}
+.nav-contain
+{
+    height: 80px
+    
+}
+.nav-contain .y1
+{
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.y1 .z1
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+.y1 .z1 .s1
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.nav-container input
+{
+   width: 230px;
+   height: 45px;
+   border-radius: 50px;
+   border: 1px solid gray;
+   outline: none;
+}
+.z1::after
+{
+    content: "";
+    display: block;
+    border-bottom: 3px solid black;
+    width: 0%;
+    position: relative;
+    margin: auto;
+    transition: 0.7s;
+    top: 5px;
+}
+.z1:hover::after
+{
+    width: 100%;
+}
+::placeholder
+{
+    padding: 0px 0px 0px 35px;
+    font-size: 20px;
+}
+.nav-container i
+{
+    position: relative;
+   left: 13%;
+}
+.nav
+{
+    width: 100%;
+}
+.banner
+{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+}
+.im1
+{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.division 
+{
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.division h3
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.division h3::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 32%;
+    left: 10%;
+    top: 32px;
+}
+.division h3::before
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 32%;
+    right: 10%;
+    top: 32px;
+}
+.con-main
+{
+    width: 100%;
+}
+.con
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 img
+{
+    height: 300px;
+    width: 335px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.con-main2
+{
+    width: 100%;
+    margin: 10px 0px;
+}
+.con2
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 img
+{
+    height: 300px;
+    width: 335px;
+    border-radius: 15px;
+}
+.mome
+{
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.mome h2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.mome h2::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    left: 13%;
+    top: 32px;
+}
+.mome h2::before
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    right: 13%;
+    top: 32px;
+}
+.division1
+{
+    width: 100%;
+}
+.div2
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxx1 img
+{
+    display: flex;
+    justify-content: space-between;
+    width: 335px;
+    height: 450px;
+    border-radius: 10px;
+}
+.division2
+{
+    width: 100%;
+}
+.div3
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxx2 img
+{
+    display: flex;
+    width: 335px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.division3
+{
+    width: 100%;
+}
+.div4
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.boxx3 img
+{
+    display: flex;
+    width: 335px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.border
+{
+    border: 1px solid rgb(173, 169, 169);
+    width: 100%;
+  margin: 50px 0px;
+}
+.account-main
+{
+    width: 100%;
+}
+.semi-main
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.account1 ul
+{
+    margin-top: 30px;
+}
+.account1 ul li
+{
+   list-style: none;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.account1 ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+.account2 ul
+{
+    margin-top: 30px;
+}
+.account2 ul li
+{
+   list-style: none;
+   margin-left: 35px;
+   margin-top: 10px;
+}
+.account2 ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+.account3 ul
+{
+    margin-top: 30px;
+}
+.account3 ul li
+{
+   list-style: none;
+   margin-left: 35px;
+   margin-top: 10px;
+}
+.account3 ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+.account4 ul
+{
+    margin-top: 30px;
+}
+.account4 ul li
+{
+   list-style: none;
+  
+   margin-top: 10px;
+}
+.account4 ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 19px;
+}
+.f
+{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.f h2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(91, 88, 88);
+}
+.f h2::after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 33%;
+    left: 11%;
+    top: 33px;
+}
+.f h2::before
+{
+    content: "";
+    position: absolute;
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 33%;
+    right: 11%;
+    top: 33px;
+}
+.footer
+{
+    width: 100%;
+}
+.footer-main
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.imge1
+{
+    margin: 0px 15px;
+}
+.imge1 img
+{
+    height: 60px;
+    width: 60px;
+}
+p
+{
+    text-align: center;
+    font-size: 20px;
+     margin: 30px 0px;
+     color: grey;
+}
+p a
+{
+   text-decoration: none;
+}
